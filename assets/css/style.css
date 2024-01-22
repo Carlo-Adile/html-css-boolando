@@ -3,10 +3,11 @@
 }
 
 #site_header{
-
+    height:100px;
 }
 
 #site_main{
+    padding-top: 25px;
     width:100%;
 }
 
@@ -25,4 +26,20 @@
     width:175px;
     color:white;
     font-family:sans-serif;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product{
+    border:1px solid black;
+    width:25%;
+    height:500px;
+}
+
+#like{
+    
 }
