@@ -1,0 +1,28 @@
+*{
+    margin:0;
+}
+
+#site_header{
+
+}
+
+#site_main{
+    width:100%;
+}
+
+.navigate{
+    position:fixed;
+    width:100%;
+    height:100px;
+    background-color: orange;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navigate_parts{
+    border:1px solid black;
+    width:175px;
+    color:white;
+    font-family:sans-serif;
+}
