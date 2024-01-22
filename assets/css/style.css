@@ -78,8 +78,20 @@ i{
     background-repeat: no-repeat;
 }
 
+.relaxed_fit:hover{
+    background-image: url(..//img/1b.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
 .roses_tee{
     background-image: url(..//img/2.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.roses_tee:hover{
+    background-image: url(..//img/2b.webp);
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -90,8 +102,20 @@ i{
     background-repeat: no-repeat;
 }
 
+.colori_pastello:hover{
+    background-image: url(..//img/3b.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
 .tee_unisex{
     background-image: url(..//img/4.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.tee_unisex:hover{
+    background-image: url(..//img/4b.webp);
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -102,8 +126,20 @@ i{
     background-repeat: no-repeat;
 }
 
+.stripe_bodice:hover{
+    background-image: url(..//img/5b.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
 .maglione_black{
     background-image: url(..//img/6.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.maglione_black:hover{
+    background-image: url(..//img/6b.webp);
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -123,7 +159,7 @@ i{
 
 .sustainability{
     color:white;
-    background-color:orangered;
+    background-color:green;
     font-weight: bold;
     position:absolute;
     bottom:15%;
@@ -148,8 +184,6 @@ i{
 #like::before{
     content:"\2661";
 }
-
-
 
 /* product info parts */
 
