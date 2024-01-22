@@ -46,13 +46,48 @@
     border:1px solid black;
     width:25%;
     height:600px;
+    margin-bottom:75px;
 }
+
+/* list of products with corresponding img */
 
 .relaxed_fit{
     background-image: url(..//img/1.webp);
     background-size:cover;
     background-repeat: no-repeat;
 }
+
+.roses_tee{
+    background-image: url(..//img/2.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.colori_pastello{
+    background-image: url(..//img/3.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.tee_unisex{
+    background-image: url(..//img/4.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.stripe_bodice{
+    background-image: url(..//img/5.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.maglione_black{
+    background-image: url(..//img/6.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/* product parts */
 
 .discount{
     position:absolute;
@@ -85,7 +120,6 @@
     top:100%;
     border:1px solid black;
     width:100%;
-    height:75px;
 }
 
 /* footer */
