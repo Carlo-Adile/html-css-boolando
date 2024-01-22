@@ -144,14 +144,14 @@
     background-repeat: no-repeat;
 }
 
-/* product parts */
+/* product added parts */
 
 .discount{
     color:white;
     background-color:orangered;
     font-weight: bold;
     position:absolute;
-    bottom:15%;
+    bottom:8%;
     width:50px;
     height:1.5rem;
     text-align: center;
@@ -162,27 +162,21 @@
     background-color:green;
     font-weight: bold;
     position:absolute;
-    bottom:15%;
-    left:55px;
-    width:100px;
+    bottom:8%;
+    left:52px;
+    width:110px;
     height:1.5rem;
     text-align: center;
 }
 
 #like{
-    display:flex;
-    align-items:center;
     position:absolute;
-    top:5%;
+    top:2%;
     right:0;
-    width:30px;
-    height:30px;
-    font-size:1.5em;
+    font-size:1.2em;
+    text-align:center;
     background-color: white;
-}
-
-#like::before{
-    content:"\2661";
+    border:8px solid white;
 }
 
 /* product info parts */
@@ -198,7 +192,13 @@
     font-weight:bold;
 }
 
+#price{
+    font-weight: bold;
+    color:red;
+}
+
 #original_price{
+    color:black;
     text-decoration: line-through;
 }
 
@@ -217,8 +217,8 @@
 }
 
 .contacts_parts span{
-    font-size:0.8rem;
-    padding:3px;
+    font-size:0.7rem;
+    padding-right:8px;
 }
 
 .contacts_parts i{
