@@ -8,7 +8,14 @@
 
 #site_main{
     padding-top: 25px;
+    padding-bottom:25px;
     width:100%;
+}
+
+#site_footer{
+    height:100px;
+    width:100%;
+    background-color: black;
 }
 
 .navigate{
