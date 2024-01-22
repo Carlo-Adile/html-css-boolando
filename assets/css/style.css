@@ -36,7 +36,6 @@
     align-items: center;
     color:white;
     font-weight: bold;
-    border:1px solid black;
     width:175px;
     height:40px;
     color:white;
@@ -53,6 +52,7 @@ i{
     font-size:1.2rem;
     letter-spacing: 15px;
 }
+
 /* card of the shop */
 
 .card{
@@ -63,7 +63,6 @@ i{
 
 .product{
     position:relative;
-    border:1px solid black;
     width:25%;
     height:600px;
     margin-bottom:75px;
@@ -112,18 +111,26 @@ i{
 /* product parts */
 
 .discount{
+    color:white;
+    background-color:orangered;
+    font-weight: bold;
     position:absolute;
     bottom:15%;
     width:50px;
-    border:1px solid black;
+    height:1.5rem;
+    text-align: center;
 }
 
 .sustainability{
+    color:white;
+    background-color:orangered;
+    font-weight: bold;
     position:absolute;
     bottom:15%;
-    left:50px;
+    left:55px;
     width:100px;
-    border:1px solid black;
+    height:1.5rem;
+    text-align: center;
 }
 
 #like{
@@ -149,7 +156,6 @@ i{
 .product_info{
     position:absolute;
     top:100%;
-    border:1px solid black;
     width:100%;
     font-family:sans-serif;
 }
@@ -174,11 +180,19 @@ i{
 
 .contacts{
     display:flex;
+    width:100%;
+
     justify-content: space-around;
+    align-items: center;
 }
 
 .contacts_parts{
-    width:200px;
-    height:100px;
+    width:400px;
     border:1px solid white;
+    color:white;
+}
+
+.contacts_parts span{
+    font-size:0.8rem;
+    padding:3px;
 }
