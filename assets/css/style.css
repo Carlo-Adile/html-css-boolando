@@ -18,7 +18,7 @@
     background-color: black;
 }
 
-/* footer fixed bar */
+/* header fixed bar */
 
 .navigate{
     position:fixed;
@@ -29,6 +29,7 @@
     justify-content:space-around;
     align-items:center;
     z-index: 1000;
+    box-shadow: 0 0 10px black;
 }
 
 .navigate_parts{
@@ -41,16 +42,16 @@
     font-family:sans-serif;
 }
 
+.navigate_parts i{
+    font-size:1.2rem;
+    letter-spacing: 15px;
+}
+
 .logo{
     background-image: url(..//img/boolean-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     width:150px;
-}
-
-.navigate_parts i{
-    font-size:1.2rem;
-    letter-spacing: 15px;
 }
 
 /* card of the shop */
@@ -70,7 +71,7 @@
     margin-right:10px;
 }
 
-/* list of products with corresponding img */
+/* list of products with corresponding images */
 
 .relaxed_fit{
     background-image: url(..//img/1.webp);
@@ -144,7 +145,7 @@
     background-repeat: no-repeat;
 }
 
-/* product added parts */
+/* product added parts to the card */
 
 .discount{
     color:white;
@@ -195,7 +196,7 @@
     fill:black;
 }
 
-/* product info parts */
+/* product info parts of the card */
 
 .product_info{
     position:absolute;
